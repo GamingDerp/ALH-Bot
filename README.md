@@ -6,8 +6,8 @@ A discord bot made for Minecraft Java Anarchy players to find over 900 anarchy r
 - [ALH Anarchy Discord](https://discord.gg/xmtngnh)
 - [Add ALH-Bot!](https://discord.com/api/oauth2/authorize?client_id=749364874815078523&permissions=0&scope=bot)
 
-**Devs:** Luck#1574 & GamingDerp#1915 
-**Default Prefix:** !
++ **Devs:** Luck#1574 & GamingDerp#1915 
++ **Default Prefix:** !
 
 ## Command Information
 
@@ -24,8 +24,8 @@ A discord bot made for Minecraft Java Anarchy players to find over 900 anarchy r
 - 8ball (Responds with one of 9 responses)
 - Gay (Shows how gay a user is, ie: "69% gay")
   
-==More Coming Soon :wink:==
+==More Coming Soon==
   
 **-Nsfw-**
 
-==No Commands Currently :wink:==
+==No Commands Currently==
