@@ -25,7 +25,7 @@ Command Types:
   8ball (Responds with one of 9 responses)
   Gay (Shows how gay a user is, ie: "69% gay")
   
-  ==More Coming Soon==
+==More Coming Soon==
   
 -Nsfw-
 
