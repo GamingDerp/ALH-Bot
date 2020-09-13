@@ -14,7 +14,7 @@ Command Types:
 
 -General-
   Help (Shows the bot's help menu)
-  Info (Shows information about the bot, ie: how many servers it's in, alh related links, etc)
+  Info (Shows information about the bot, ie: how many servers it's in, ALH related links, etc)
   Prefix (Allows the user to change the prefix to a custom one)
   Search (Searches for servers with the related name in ALH)
   Random (Shows a random server)
