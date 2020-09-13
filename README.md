@@ -1,5 +1,5 @@
 # ALH-Bot
-A bot made for Minecraft Java Anarchy players to find over 900 anarchy related discords.
+A discord bot made for Minecraft Java Anarchy players to find over 900 anarchy related discords.
 
 ALH Discord: https://discord.gg/xt9CkXQ
 ALH Anarchy Discord: https://discord.gg/xmtngnh
