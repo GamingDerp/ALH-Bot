@@ -1,5 +1,5 @@
 # ALH-Bot
-A discord bot made for Minecraft Java Anarchy players to find over 900 anarchy related discords.
+Discord Server Index bot for the Anarchy Links Hub
 
 ## ALH Related Information
 - [ALH Discord](https://discord.gg/xt9CkXQ)
@@ -13,7 +13,7 @@ A discord bot made for Minecraft Java Anarchy players to find over 900 anarchy r
 **-General-**
 - Help (Shows the bot's help menu)
 - Info (Shows information about the bot, ie: how many servers are indexed, ALH related links, etc)
-- Prefix (Allows the user to change the prefix)
+- NewPrefix (Allows the user to change the prefix)
 - Search (Searches for servers with the related name in ALH)
 - Random (Shows a random server)
 - Test (Responds saying "I'm up and running" if the bot is up)
