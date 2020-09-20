@@ -23,7 +23,7 @@ Discord Server Index bot for the Anarchy Links Hub
 - 8ball (Responds with one of 9 responses)
 - Gay (Shows how gay a user is, ie: "69% gay")
 - Phrase (Responds with a phrase)
-- Cat (Sends a picture of [this cat](https://cdn.discordapp.com/attachments/750140861991354465/756377662091558993/IMG_20200630_224855_434.jpg)
+- Cat (Sends a picture of [this](https://cdn.discordapp.com/attachments/750140861991354465/756377662091558993/IMG_20200630_224855_434.jpg))
   
 ==More Coming Soon==
   
