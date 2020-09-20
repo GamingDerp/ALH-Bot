@@ -22,9 +22,8 @@ Discord Server Index bot for the Anarchy Links Hub
 - Coinflip (Flips a coin)
 - 8ball (Responds with one of 9 responses)
 - Gay (Shows how gay a user is, ie: "69% gay")
+- Phrase (Responds with a phrase)
   
 ==More Coming Soon==
   
-**-Nsfw-**
 
-==No Commands Currently==
