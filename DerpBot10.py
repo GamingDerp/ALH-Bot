@@ -282,7 +282,6 @@ async def info(ctx):
     e.add_field(
         name="⍟ Links ⍟",
         value=f"<:AnarchyLinksHub:750895092507869214> [Anarchy Links Hub](https://discord.gg/xt9CkXQ)"
-              f"\n:crossed_swords: [ALH Anarchy](https://discord.gg/xmtngnh)"
               f"\n:gear: [Add ALH-Bot!](https://discord.com/api/oauth2/authorize?client_id=749364874815078523&permissions=387136&scope=bot)"
               f"\n📚 [GitHub](https://github.com/GamingDerp/ALH-Bot)",
         inline=False
