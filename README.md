@@ -3,7 +3,6 @@ Discord Server Index bot for the Anarchy Links Hub
 
 ## ALH Related Information
 - [ALH Discord](https://discord.gg/xt9CkXQ)
-- [ALH Anarchy Discord](https://discord.gg/xmtngnh)
 - [Add ALH-Bot!](https://discord.com/api/oauth2/authorize?client_id=749364874815078523&permissions=0&scope=bot)
 
 **Bot Devs:** Luck#1574 & GamingDerp#1915 **Default Prefix:** !
