@@ -204,7 +204,7 @@ class DerpBot(commands.Bot):
         page = 0
 
         def overview():
-            e = discord.Embed(color=0x992d22)
+            e = discord.Embed(color=0x6C3483)
             e.description = ""
             for i, (key, value) in enumerate(pages[page].items()):
                 if value:
@@ -252,7 +252,7 @@ async def test(ctx):
  
 @bot.command()
 async def info(ctx):
-    e = discord.Embed(color=0xE64EEB)
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name="ALH Bot Info", icon_url=bot.get_user(bot.config["owner_id"]).avatar_url)
     e.set_thumbnail(url=bot.user.avatar_url)
     e.description = f"Guess I can sort this too.."
@@ -313,7 +313,7 @@ async def search(ctx, *, search_term):
 
 @bot.command(name="help")
 async def help(ctx):
-    e = discord.Embed(color=0xE64EEB)
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name="Help", icon_url=bot.get_user(bot.config["owner_id"]).avatar_url)
     e.set_thumbnail(url=bot.user.avatar_url)
     e.description = f"ALH-Bot's Help Menu!"
@@ -335,7 +335,6 @@ async def help(ctx):
               f"\nGay"
               f"\nPhrase"
               f"\nCute"
-              f"\nCat"
               f"\n⠀"
               f"\n More coming soon! :wink:",
     inline = False
@@ -345,7 +344,7 @@ async def help(ctx):
 
 @bot.command(name="random")
 async def random_server(ctx):
-    e = discord.Embed(color=0xE3C0EC)
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name="Random Server", icon_url=ctx.author.avatar_url)
     selection = []
     for channels in bot.index.values():
@@ -377,7 +376,6 @@ async def newprefix(ctx, *, new_prefix):
 
 @bot.command(name="Coinflip", aliases=["cf"])
 async def coinflip(ctx):
-    e = discord.Embed(color=0xE3C0EC)
     e.set_author(name="Coinflip", icon_url=ctx.author.avatar_url)
     choice = ["Heads", "Tails"]
     await ctx.send(random.choice(choice))
@@ -385,7 +383,6 @@ async def coinflip(ctx):
 
 @bot.command(name="8ball")
 async def eight_ball(ctx):
-    e = discord.Embed(color=0xE3C0EC)
     e.set_author(name="8ball", icon_url=ctx.author.avatar_url)
     choice = ["Yes", "No", "Obviously", "Wtf??", "I'm not sure..", "Maybe...?", "Stop asking.", "Find out for yourself smh", "Crabs"]
     await ctx.send(random.choice(choice))
@@ -393,7 +390,7 @@ async def eight_ball(ctx):
 
 @bot.command(name="Gay")
 async def gay(ctx):
-    e = discord.Embed(color=0xE3C0EC)
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name=str(ctx.author), icon_url=ctx.author.avatar_url)
     e.description = f"{random.randint(0, 100)}% gay"
     await ctx.send(embed=e)
@@ -401,7 +398,7 @@ async def gay(ctx):
 
 @bot.command(name="Phrase")
 async def phrase(ctx):
-    e = discord.Embed(color=0xE3C0EC)
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name="Phrase", icon_url=ctx.author.avatar_url)
     with open("Phrases") as f:
         phrases = f.readlines()
@@ -411,7 +408,7 @@ async def phrase(ctx):
     
 @bot.command(name="Cute")
 async def cute(ctx):
-    e = discord.Embed(color=0xB369C6)
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name="Cute", icon_url=ctx.author.avatar_url)
     with open("Cute") as f:
         cute = f.readlines()
@@ -419,27 +416,9 @@ async def cute(ctx):
     await ctx.send(embed=e)
 
 
-@bot.command(name="Cat")
-async def cat(ctx):
-    e = discord.Embed(color=0xB369C6)
-    e.set_author(name="Cat", icon_url=ctx.author.avatar_url)
-    with open("Cat") as f:
-        cat = f.readlines()
-    e.set_image(url=random.choice(cat))
-    await ctx.send(embed=e)
-
-
 @bot.event
 async def on_message(msg):
     if msg.channel.id == 750140861991354459:
-        await msg.add_reaction("👍")
-        await msg.add_reaction("👎")
-    await bot.process_commands(msg)
-
-
-@bot.event
-async def on_message(msg):
-    if msg.channel.id == 757080846934081536:
         await msg.add_reaction("👍")
         await msg.add_reaction("👎")
     await bot.process_commands(msg)
