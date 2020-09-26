@@ -23,7 +23,6 @@ Discord Server Index bot for the Anarchy Links Hub
 - Gay (Shows how gay a user is, ie: "69% gay")
 - Phrase (Responds with a phrase)
 - Cute (Sends a picture of a cute animal)
-- Cat (Sends a picture of a few cats)
   
 ==More Coming Soon==
   
