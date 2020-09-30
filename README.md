@@ -1,5 +1,5 @@
 # ALH-Bot
-Discord Server Index bot for the Anarchy Links Hub
+Discord Server Index bot made by the Anarchy Links Hub
 
 ## ALH Related Information
 - [ALH Discord](https://discord.gg/xt9CkXQ)
