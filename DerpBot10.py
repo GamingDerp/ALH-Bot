@@ -281,7 +281,7 @@ async def info(ctx):
     )
     e.add_field(
         name="⍟ Links ⍟",
-        value=f"<:AnarchyLinksHub:750895092507869214> [Anarchy Links Hub](https://discord.gg/xt9CkXQ)"
+        value=f"<:AnarchyLinksHub:750895092507869214> [Anarchy Links Hub](https://discord.gg/aGQeKwr)"
               f"\n:gear: [Add ALH-Bot!](https://discord.com/api/oauth2/authorize?client_id=749364874815078523&permissions=387136&scope=bot)"
               f"\n📚 [GitHub](https://github.com/GamingDerp/ALH-Bot)",
         inline=False
@@ -323,6 +323,7 @@ async def help(ctx):
         value=f"Help"
               f"\nInfo"
               f"\nNewPrefix"
+              f"\nServers"
               f"\nSearch"
               f"\nRandom"
               f"\nTest",
@@ -413,6 +414,14 @@ async def cute(ctx):
     with open("Cute") as f:
         cute = f.readlines()
     e.set_image(url=random.choice(cute))
+    await ctx.send(embed=e)
+
+
+@bot.command(name="Servers")
+async def servers(ctx):
+    e = discord.Embed(color=0x6C3483)
+    e.set_author(name="Servers", icon_url=ctx.author.avatar_url)
+    e.description = f"\n".join(str(guild) for guild in bot.guilds)
     await ctx.send(embed=e)
 
 
