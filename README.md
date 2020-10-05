@@ -13,7 +13,7 @@ Discord Server Index bot made by the Anarchy Links Hub
 - Help (Shows the bot's help menu)
 - Info (Shows information about the bot, ie: how many servers are indexed, ALH related links, etc)
 - NewPrefix (Allows the user to change the prefix)
-- Servers (Shows all the servers ALh-Bot is in)
+- Servers (Shows all the servers ALH-Bot is in)
 - Search (Searches for servers with the related term in ALH)
 - Random (Shows a random server)
 - Test (Responds saying "I'm up and running" if the bot is up)
