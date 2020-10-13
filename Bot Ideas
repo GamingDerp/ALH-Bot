@@ -6,4 +6,4 @@ These are all just ideas I have for the bot's future, none of these are confirme
 - !ping (pings a server, says it's tps, amount of players, etc [like Crafty bot] )
 - !u-info @user(sends a users account info [server nickname, name, id, account creation, server joindate, etc] )
 - !s-info (sends info about the server [bot/member count, # of boosts, server creation date, # of roles, etc] )
-- Global ALH chat (Setup a channel in your discord, and the bot will send messages from other servers [censors discord links and excessive spam, and pinging roles though] )
+- Global ALH chat (Setup a channel in your discord, and the bot will send messages from other servers [censors discord links, excessive spam, and pinging roles though] )
