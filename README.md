@@ -34,6 +34,6 @@ Discord Server Index bot made by the Anarchy Links Hub
 
 
 - !list (lists all the discords in a certain channel [Ex: !list 9b9t] )
-- !ping (pings a server, says it's tps, amount of players, etc [like Crafty bot] )
+- !ping (pings a server, says it's tps, amount of players, etc )
 - !u-info @user(sends a users account info [server nickname, name, id, account creation, server joindate, etc] )
 - !s-info (sends info about the server [bot/member count, # of boosts, server creation date, # of roles, etc] )
