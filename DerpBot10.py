@@ -401,7 +401,7 @@ async def gay(ctx):
 async def phrase(ctx):
     e = discord.Embed(color=0x6C3483)
     e.set_author(name="Phrase", icon_url=ctx.author.avatar_url)
-    with open("Phrases") as f:
+    with open("phrases.txt") as f:
         phrases = f.readlines()
         e.description = random.choice(phrases)
     await ctx.send(embed=e)
@@ -411,7 +411,7 @@ async def phrase(ctx):
 async def cute(ctx):
     e = discord.Embed(color=0x6C3483)
     e.set_author(name="Cute", icon_url=ctx.author.avatar_url)
-    with open("Cute") as f:
+    with open("cute.txt") as f:
         cute = f.readlines()
     e.set_image(url=random.choice(cute))
     await ctx.send(embed=e)
