@@ -1,4 +1,4 @@
-# Server Index Bot for GamingDerp
+# Server Index Bot for ALH
 
 from os import path
 import json
