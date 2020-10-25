@@ -248,8 +248,8 @@ bot.allowed_mentions = discord.AllowedMentions(everyone=False, roles=False, user
 @bot.command(name="test")
 async def test(ctx):
     await ctx.send("I'm up and running")
- 
- 
+
+
 @bot.command()
 async def info(ctx):
     e = discord.Embed(color=0x6C3483)
@@ -377,16 +377,20 @@ async def newprefix(ctx, *, new_prefix):
 
 @bot.command(name="Coinflip", aliases=["cf"])
 async def coinflip(ctx):
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name="Coinflip", icon_url=ctx.author.avatar_url)
     choice = ["Heads", "Tails"]
-    await ctx.send(random.choice(choice))
+    e.description = f"{random.choice(choice)}% gay"
+    await ctx.send(embed=e)
 
 
 @bot.command(name="8ball")
 async def eight_ball(ctx):
+    e = discord.Embed(color=0x6C3483)
     e.set_author(name="8ball", icon_url=ctx.author.avatar_url)
     choice = ["Yes", "No", "Obviously", "Wtf??", "I'm not sure..", "Maybe...?", "Stop asking.", "Find out for yourself smh", "Crabs"]
-    await ctx.send(random.choice(choice))
+    e.description = f"{random.choice(choice)}% gay"
+    await ctx.send(embed=e)
 
 
 @bot.command(name="Gay")

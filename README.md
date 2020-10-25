@@ -27,7 +27,6 @@ Discord Server Index bot made by the Anarchy Links Hub
   
 ==More Coming Soon==
   
-
 ## ALH-Bot Ideas
 
 [ These are all just ideas I have for the bot's future, none of these are confirmed to be added. ]
