@@ -156,6 +156,7 @@ class DerpBot(commands.Bot):
             await message.delete()
             return options[emojis.index(str(reaction.emoji))]
 
+
     async def display(self, options: dict, context):
         """ Reaction based configuration """
 
