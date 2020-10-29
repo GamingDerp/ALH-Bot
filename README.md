@@ -35,3 +35,4 @@ Discord Server Index bot made by the Anarchy Links Hub
 - !ping (pings a server, says it's tps, amount of players, etc )
 - !u-info @user(sends a users account info [server nickname, name, id, account creation, server joindate, etc] )
 - !s-info (sends info about the server [bot/member count, # of boosts, server creation date, # of roles, etc] )
+- !poll (creates a poll)
