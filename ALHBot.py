@@ -390,7 +390,7 @@ async def eight_ball(ctx):
     e = discord.Embed(color=0x6C3483)
     e.set_author(name="8ball", icon_url=ctx.author.avatar_url)
     choice = ["Yes", "No", "Obviously", "Wtf??", "I'm not sure..", "Maybe...?", "Stop asking.", "Find out for yourself smh", "Crabs"]
-    e.description = f"{random.choice(choice)}% gay"
+    e.description = f"{random.choice(choice)}"
     await ctx.send(embed=e)
 
 
